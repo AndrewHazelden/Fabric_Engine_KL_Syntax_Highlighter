@@ -1,5 +1,5 @@
 # Notepad++ Fabric Engine KL Syntax Highlighter  #
-**Version 1** Released March  12, 2013  
+**Version 1** Released March 12, 2013  
 by Andrew Hazelden
 
 ![This is a sample show script that has syntax highlighting](screenshots/kl_notepad++_bulge.png)

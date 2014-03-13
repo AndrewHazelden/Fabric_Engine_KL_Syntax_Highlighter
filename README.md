@@ -6,12 +6,12 @@ by Andrew Hazelden
 
 ## Overview ##
 
-This is a repository for syntax highlighting modules for [Fabric Engine's KL language](http://documentation.fabric-engine.com/FabricEngine/1.11.0/HTML/KLProgrammingGuide/index.html). This syntax highlighter collection will be updated as more text editors are supported.
+This is a repository for syntax highlighting modules for [Fabric Engine's KL language](http://documentation.fabric-engine.com/FabricEngine/1.11.0/HTML/KLProgrammingGuide/index.html). At the moment there are modules for Notepad++, TextWrangler, and BBEdit. This syntax highlighter collection will be updated as more text editors are supported.
 
 ----------
 
 Cheers,  
-Andrew Hazelden
+Andrew Hazeldens
 
 Email: [andrew@andrewhazelden.com](mailto:andrew@andrewhazelden.com)   
 Blog: [http://www.andrewhazelden.com](http://www.andrewhazelden.com)  
