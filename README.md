@@ -1,5 +1,5 @@
 # Fabric Engine KL Syntax Highlighters #
-**Version 0.1** Released March 12, 2013   
+**Version 1** Released March 12, 2013   
 by Andrew Hazelden
 
 ![Sample KL file](kl_sample_screenshot.png)
