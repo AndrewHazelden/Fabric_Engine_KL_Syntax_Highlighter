@@ -1,5 +1,5 @@
 # BBEdit and TextWrangler Fabric Engine KL Codeless Language Module  #
-**Version 1** Released March 14, 2014  
+**Version 1.1** Released June 23, 2014  
 by Andrew Hazelden  
 
 ![This is a sample show script that has syntax highlighting](screenshots/textwrangler_syntax_hightlighting_enabled.png)

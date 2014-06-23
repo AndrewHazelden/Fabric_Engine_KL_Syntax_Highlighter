@@ -1,11 +1,13 @@
 # Notepad++ Fabric Engine KL Syntax Highlighter  #
-**Version 1** Released March 12, 2013  
+**Version 1.1** Released June 23, 2014  
 by Andrew Hazelden
 
 ![This is a sample show script that has syntax highlighting](screenshots/kl_notepad++_bulge.png)
 
 ## Overview ##
 I would like to present a new Notepad++ syntax highlighting module that works with code from [Fabric Engine's KL language](http://documentation.fabric-engine.com/FabricEngine/1.11.0/HTML/KLProgrammingGuide/index.html). The new module makes it easier for a VFX Artist or Technical Director to edit a KL script.
+
+**Update:** Version 1.1 improves Hex number highlighting and adds a Notepad++ `Compare.ini` preference file for improved text legibility when using the Notepad++ file comparison features.
 
 **Note:** The free program Notepad++ is required to use the syntax highlighter.
 
@@ -39,9 +41,9 @@ In the Style Configurator window select the **Obsidian** theme and click the **S
 
 ![Click the "Import" button](screenshots/5_import_a_language.png)
 
-In the open dialog select the **"userDefine_FabricEngineKL v1.xml"** file and click **open**.
+In the open dialog select the **"userDefine_FabricEngineKL.xml"** file and click **open**.
 
-![Select the userDefine_FabricEngineKL v1.xml file ](screenshots/6_select_the_language_file.png)
+![Select the userDefine_FabricEngineKL.xml file ](screenshots/6_select_the_language_file.png)
 
 If the file was loaded correctly an "Import Successful" notice will appear.  Click the **OK** button to continue. At this point you should close the "User Defined Language" widow by clicking on the window's **X** shaped close button.
 
@@ -61,6 +63,13 @@ Open the **Language** menu and select **Fabric KL**. This will turn on syntax hi
 Here is an example Fabric Engine .kl script called "swirleyMovementOp.kl" with Notepad++ based syntax highlighting enabled:
 
 ![This is a sample show script that has syntax highlighting](screenshots/10_highlighted_fabric_kl.png)
+
+**Bonus Step** If you use the Notepad++ Compare module you can load the new Obsidian theme compatible color palette file "Compare.ini" from the Fabric Engine KL Syntax Highlighter install folder by copying "Compare.ini" to your Notepad++ preferences folder:
+
+    C:\Users\<Your User Account>\AppData\Roaming\Notepad++
+
+![Compare.ini theme update](screenshots/compare-color-update.png)
+
 
 * * *
 

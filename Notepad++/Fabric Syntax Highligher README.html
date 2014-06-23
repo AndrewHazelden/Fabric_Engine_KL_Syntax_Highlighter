@@ -1,7 +1,7 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<title>readme</title>
+<title>README</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 /* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
@@ -274,11 +274,12 @@ img {
 </head>
 <body>
 <h1>Notepad++ Fabric Engine KL Syntax Highlighter</h1>
-<p><strong>Version 1</strong> Released March  12, 2013<br />
+<p><strong>Version 1.1</strong> Released June 23, 2014<br />
 by Andrew Hazelden</p>
 <p><img src="screenshots/kl_notepad++_bulge.png" alt="This is a sample show script that has syntax highlighting" /></p>
 <h2>Overview</h2>
 <p>I would like to present a new Notepad++ syntax highlighting module that works with code from <a href="http://documentation.fabric-engine.com/FabricEngine/1.11.0/HTML/KLProgrammingGuide/index.html">Fabric Engine's KL language</a>. The new module makes it easier for a VFX Artist or Technical Director to edit a KL script.</p>
+<p><strong>Update:</strong> Version 1.1 improves Hex number highlighting and adds a Notepad++ <code>Compare.ini</code> preference file for improved text legibility when using the Notepad++ file comparison features.</p>
 <p><strong>Note:</strong> The free program Notepad++ is required to use the syntax highlighter.</p>
 <h2>Download</h2>
 <p>The Fabric Engine KL Syntax Highlighter module is a free download.</p>
@@ -295,8 +296,8 @@ by Andrew Hazelden</p>
 <p><img src="screenshots/4_define_your_language.png" alt="Load the Define Your Language Window" /></p>
 <p><strong>Step 4.</strong> In the <strong>User Defined Language</strong> window, click on the <strong>Import</strong> button to load the XML based language file.</p>
 <p><img src="screenshots/5_import_a_language.png" alt="Click the &quot;Import&quot; button" /></p>
-<p>In the open dialog select the <strong>&quot;userDefine_FabricEngineKL v1.xml&quot;</strong> file and click <strong>open</strong>.</p>
-<p><img src="screenshots/6_select_the_language_file.png" alt="Select the userDefine_FabricEngineKL v1.xml file " /></p>
+<p>In the open dialog select the <strong>&quot;userDefine_FabricEngineKL.xml&quot;</strong> file and click <strong>open</strong>.</p>
+<p><img src="screenshots/6_select_the_language_file.png" alt="Select the userDefine_FabricEngineKL.xml file " /></p>
 <p>If the file was loaded correctly an &quot;Import Successful&quot; notice will appear.  Click the <strong>OK</strong> button to continue. At this point you should close the &quot;User Defined Language&quot; widow by clicking on the window's <strong>X</strong> shaped close button.</p>
 <p><img src="screenshots/7_import_success.png" alt="You will see a &quot;Import Successful&quot; notice" /></p>
 <p><strong>Step 5.</strong>  We need to restart Notepad++ for the new language module to be listed in the Notepad++ language menu.</p>
@@ -306,6 +307,11 @@ by Andrew Hazelden</p>
 <p><img src="screenshots/9_select_the_language.png" alt="Select the Mental Ray Language" /></p>
 <p>Here is an example Fabric Engine .kl script called &quot;swirleyMovementOp.kl&quot; with Notepad++ based syntax highlighting enabled:</p>
 <p><img src="screenshots/10_highlighted_fabric_kl.png" alt="This is a sample show script that has syntax highlighting" /></p>
+<p><strong>Bonus Step</strong> If you use the Notepad++ Compare module you can load the new Obsidian theme compatible color palette file &quot;Compare.ini&quot; from the Fabric Engine KL Syntax Highlighter install folder by copying &quot;Compare.ini&quot; to your Notepad++ preferences folder:</p>
+<pre><code>C:\Users\&lt;Your User Account&gt;\AppData\Roaming\Notepad++
+</code></pre>
+
+<p><img src="screenshots/compare-color-update.png" alt="Compare.ini theme update" /></p>
 <hr />
 <p>I hope this tool improves your coding workflow as you develop new .kl files using the Notepad++ text editor.</p>
 <p>Cheers,<br />
